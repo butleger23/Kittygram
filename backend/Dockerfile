@@ -9,5 +9,5 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt --no-cache-dir
 
 COPY . .
-# not sure which port to bind tho
+
 CMD ["gunicorn", "--bind", "0.0.0.0:9000", "kittygram_backend.wsgi"]
