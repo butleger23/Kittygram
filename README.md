@@ -1,10 +1,21 @@
-### Описание проекта:
+### About:
 
-В данном проекте было настроено автоматическое развертывание приложения на удаленном сервере.
+This project was created to practice Docker, Docker Compose, GitHub Actions skills.
 
-### Использованные технологии:
+### How to start the project using Docker:
 
-В данном проекте используются данные технологии:
+Clone the project:
+
+```
+git clone https://github.com/butleger23/Kittygram.git
+cd Kittygram
+```
+Start the apllication
+```
+docker compose -f docker-compose.production.yml up -d
+```
+
+### Tech stack:
 
 [docker](https://www.docker.com/)
 
