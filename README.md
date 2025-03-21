@@ -14,6 +14,7 @@ cd Kittygram
 ```
 docker compose -f docker-compose.production.yml up -d
 ```
+Проект будет доступен [здесь](http://localhost:9000/)
 
 ### Используемые технологии:
 
