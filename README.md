@@ -1,21 +1,21 @@
-### About:
+### О проекте:
 
-This project was created to practice Docker, Docker Compose, GitHub Actions skills.
+Этот проект был создан для практики навыков работы с Docker, Docker Compose и GitHub Actions.
 
-### How to start the project using Docker:
+### Как запустить проект с использованием Docker:
 
-Clone the project:
+Склонируйте проект:
 
-```
+```bash
 git clone https://github.com/butleger23/Kittygram.git
 cd Kittygram
 ```
-Start the apllication
+Запустите приложение:
 ```
 docker compose -f docker-compose.production.yml up -d
 ```
 
-### Tech stack:
+### Используемые технологии:
 
 [docker](https://www.docker.com/)
 
